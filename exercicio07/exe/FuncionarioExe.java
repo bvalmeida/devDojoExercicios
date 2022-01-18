@@ -14,9 +14,9 @@ public class FuncionarioExe {
     public static void main(String[] args) {
         Funcionario funcionario = new Funcionario();
 
-        funcionario.nome = "João";
-        funcionario.idade = 27;
-        funcionario.salario = new double[] { 3500, 6000, 9000 };
+        funcionario.setNome("João");
+        funcionario.setIdade(23);
+        funcionario.setSalario(new double[] { 3500, 6000, 9000 });
 
         funcionario.imprimeDados();
         funcionario.imprimeMedia();
